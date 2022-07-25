@@ -52,28 +52,8 @@ footer p {
     font-weight: bold;
 }
 
-
-.lista-navegacion {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.lista-navegacion li {
-    list-style: none;
-}
-
-.lista-navegacion li a {
-    color: white;
-    font-family: 'Amatic SC', cursive;
-    font-size: larger;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.lista-navegacion li a:hover {
-    color: white;
-    opacity: 0.4;
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../svgs/logo.svg);
 }
 
 .logo {
