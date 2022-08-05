@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta name="description" content="Información sobre la marca Un Caos Organizado y su cradora">
+    <meta name="keywords" content="ilustración, méxico, gothic, spooky, kawaii, un caos organizado, información de marca, taily, conócenos, creadora">
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="" />
     <link
@@ -16,8 +18,8 @@
   </head>
 
   <body>
-    <header>
-      <nav class="container-fluid navbar navbar-expand-md navbar-dark bg-black">
+    <header class="header title h1">
+      <nav class="container-fluid navbar navbar-expand-md navbar-dark">
         <a class="d-block d-md-none navbar-brand" href="../index.html"
           ><img
             class="logo d-block mx-auto"
@@ -34,20 +36,23 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse fs-4" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav col-12 col-md-5 justify-content-around">
             <li class="nav-item">
-              <a class="titles nav-link" aria-current="page" href="../index.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
                 >Inicio</a
               >
             </li>
 
             <li class="nav-item">
-              <a class="titles nav-link active" href="#">¿Quiénes somos?</a>
+              <a class="nav-link" href="about.html">¿Quiénes somos?</a>
             </li>
           </ul>
 
-          <a class="d-none d-md-block col-md-2" href="../index.html"
+          <a class="d-none d-md-block col-md-2 active" href="../index.html"
             ><img
               class="logo d-block mx-auto"
               src="../svgs/logo.svg"
@@ -57,109 +62,130 @@
           <ul class="navbar-nav col-12 col-md-5 justify-content-around">
             <li class="nav-item position-relative">
               <a
-                class="titles nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle"
                 href="#"
                 data-bs-toggle="dropdown"
               >
                 Productos
               </a>
 
-              <ul class="dropdown-menu dropdown-menu-dark col-md-2 bg-dark">
+              <ul
+                class="content dropdown-menu dropdown-menu-dark col-md-2 bg-dark"
+              >
                 <li>
                   <a class="dropdown-item h5" href="products.html"
                     >Todos los Productos</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="products.html"
-                    >Agendas</a
-                  >
+                  <a class="dropdown-item" href="products.html">Agendas</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="products.html"
-                    >Libretas</a
-                  >
+                  <a class="dropdown-item" href="products.html">Libretas</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="products.html">Tazas</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="products.html"
-                    >Stickers</a
-                  >
+                  <a class="dropdown-item" href="products.html">Stickers</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="products.html">Rompecabezas</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="products.html"
-                    >Tattoos</a
-                  >
+                  <a class="dropdown-item" href="products.html">Tattoos</a>
                 </li>
               </ul>
             </li>
 
             <li class="nav-item">
-              <a class="titles nav-link" href="gallery.html">Galeria</a>
+              <a class="nav-link" href="gallery.html">Galeria</a>
             </li>
 
             <li class="nav-item">
-              <a class="titles nav-link" href="contact.html">Contacto</a>
+              <a class="nav-link" href="contact.html">Contacto</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <div class="container">
-    <div class="section-about content">
-      <section class="img-caos"></section>
-      <section class="content-aboutcaos">
-        <p class="titles">Un caos organizado</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nam a, repellat iste,
-          magnam voluptate eos laborum unde nobis labore veniam repudiandae id ab accusamus dicta
-          maiores voluptatem delectus enim.
-        </p>
-      </section>
+    <section class="container my-2 my-md-5">
+      <div class="row">
+        <img
+          class="img-about col-12 col-md-6"
+          src="../images/caos.jpg"
+          alt="Un caos organizado"
+        />
 
-      <section class="img-taily"></section>
-      <section class="content-about">
-        <p class="titles">Taily caos</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nam a, repellat iste,
-          magnam voluptate eos laborum unde nobis labore veniam repudiandae id ab accusamus dicta
-          maiores voluptatem delectus enim.
-        </p>
-      </section>
-    </div>
-  </div>
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+          <p class="title h4">Un caos organizado</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nam
+            a, repellat iste, magnam voluptate eos laborum unde nobis labore
+            veniam repudiandae id ab accusamus dicta maiores voluptatem delectus
+            enim.
+          </p>
+        </div>
 
-    <footer>
-      <ul class="lista-redes">
-        <li>
-          <a href="https://www.instagram.com/uncaosorganizado/"
-            ><img src="../svgs/ig.svg" alt="Instagram"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/uncaosorganizado/"
-            ><img src="../svgs/fb.svg" alt="Facebook"
-          /></a>
-        </li>
-        <li>
-          <a href="https://vm.tiktok.com/ZMND4HE5D/"
-            ><img src="../svgs/tk.svg" alt="TikTok"
-          /></a>
-        </li>
-        <li>
-          <a href="https://youtube.com/channel/UCLNAMju5gtRDfbFgOSAlh2w"
-            ><img src="../svgs/yt.svg" alt="Youtube"
-          /></a>
-        </li>
-      </ul>
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+          <p class="title h4">Taily caos</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nam
+            a, repellat iste, magnam voluptate eos laborum unde nobis labore
+            veniam repudiandae id ab accusamus dicta maiores voluptatem delectus
+            enim.
+          </p>
+        </div>
 
-      <p>Copyright © 2022</p>
+          <img
+          class="img-about col-12 col-md-6"
+          src="../images/taily.jpg"
+          alt="Taily"
+        />
+      </div>
+    </section>
+
+    <footer class="footer container-fluid bg-black text-white">
+      <div class="row align-items-center">
+        <nav class="col-auto container-fluid m-0 p-2">
+          <ul class="nav row gx-1">
+            <li class="col-auto">
+              <a href="https://www.instagram.com/uncaosorganizado/"
+                ><img
+                  src="../svgs/ig.svg"
+                  alt="Instagram"
+                  width="32"
+                  height="32"
+              /></a>
+            </li>
+
+            <li class="col-auto">
+              <a href="https://www.facebook.com/uncaosorganizado/"
+                ><img
+                  src="../svgs/fb.svg"
+                  alt="Facebook"
+                  width="32"
+                  height="32"
+              /></a>
+            </li>
+
+            <li class="col-auto">
+              <a href="https://vm.tiktok.com/ZMND4HE5D/"
+                ><img src="../svgs/tk.svg" alt="TikTok" width="32" height="32"
+              /></a>
+            </li>
+
+            <li class="col-auto">
+              <a href="https://youtube.com/channel/UCLNAMju5gtRDfbFgOSAlh2w"
+                ><img src="../svgs/yt.svg" alt="Youtube" width="32" height="32"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+
+        <p class="d-flex col-auto ms-auto my-0 h6">Copyright © 2022</p>
+      </div>
     </footer>
 
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>

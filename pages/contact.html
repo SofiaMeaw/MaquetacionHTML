@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta content="IE=edge" http-equiv="X-UA-Compatible" />
     <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta name="description" content="Formulario de contacto de la marca Un Caos Organizado">
+    <meta name="keywords" content="ilustración, méxico, gothic, spooky, kawaii, un caos organizado, contacto, formulario, mensaje">
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="" />
     <link
@@ -16,151 +18,166 @@
   </head>
 
   <body>
-    <header>
-    <nav class="container-fluid navbar navbar-expand-md navbar-dark bg-black">
-      <a class="d-block d-md-none navbar-brand" href="../index.html"
-      ><img
+    <header class="header title h1">
+      <nav class="container-fluid navbar navbar-expand-md navbar-dark">
+        <a class="d-block d-md-none navbar-brand" href="#"
+          ><img
+            class="logo d-block mx-auto"
+            src="../svgs/logo.svg"
+            alt="Logo un caos organizado"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav col-12 col-md-5 justify-content-around">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">¿Quiénes somos?</a>
+            </li>
+          </ul>
+
+          <a class="d-none d-md-block col-md-2 active" href="../index.html"
+            ><img
               class="logo d-block mx-auto"
               src="../svgs/logo.svg"
               alt="Logo un caos organizado"
-      /></a>
+          /></a>
 
-      <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <ul class="navbar-nav col-12 col-md-5 justify-content-around">
+            <li class="nav-item position-relative">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+              >
+                Productos
+              </a>
 
-      <div class="collapse navbar-collapse fs-4" id="navbarSupportedContent">
-        <ul class="navbar-nav col-12 col-md-5 justify-content-around">
-          <li class="nav-item">
-            <a class="titles nav-link" aria-current="page" href="../index.html"
-            >Inicio</a
-            >
-          </li>
+              <ul
+                class="content dropdown-menu dropdown-menu-dark col-md-2 bg-dark"
+              >
+                <li>
+                  <a class="dropdown-item h5" href="products.html"
+                    >Todos los Productos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html">Agendas</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html">Libretas</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html">Tazas</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html">Stickers</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html">Rompecabezas</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="products.html">Tattoos</a>
+                </li>
+              </ul>
+            </li>
 
-          <li class="nav-item">
-            <a class="titles nav-link" href="about.html">¿Quiénes somos?</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galeria</a>
+            </li>
 
-        <a class="d-none d-md-block col-md-2" href="../index.html"
-        ><img
-                class="logo d-block mx-auto"
-                src="../svgs/logo.svg"
-                alt="Logo un caos organizado"
-        /></a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-        <ul class="navbar-nav col-12 col-md-5 justify-content-around">
-          <li class="nav-item position-relative">
-            <a
-                    class="titles nav-link dropdown-toggle"
-                    href="#"
-                    data-bs-toggle="dropdown"
-            >
-              Productos
-            </a>
+    <section class="d-flex flex-wrap">
+      <img class="img-aside" src="../images/contact.jpg" />
 
-            <ul class="dropdown-menu dropdown-menu-dark col-md-2 bg-dark">
-              <li>
-                <a class="dropdown-item h5" href="products.html"
-                >Todos los Productos</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="products.html"
-                >Agendas</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="products.html"
-                >Libretas</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="products.html">Tazas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="products.html"
-                >Stickers</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="products.html">Rompecabezas</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="products.html"
-                >Tattoos</a
-                >
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="titles nav-link" href="gallery.html">Galeria</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="titles nav-link active" href="#">Contacto</a>
-          </li>
-        </ul>
+      <div class="content-aside container">
+        <form class="container-fluid my-1">
+          <fieldset class="row">
+            <legend class="title w-100 justify-center h3">
+              Contáctanos para adquirir nuestros productos
+            </legend>
+            <label class="col-3" for="nombre">Nombre</label>
+            <input class="col-9" type="text" id="nombre" />
+            <label class="col-3" for="telefono">Telefono</label>
+            <input class="col-9" type="tel" id="telefono" />
+            <label class="col-3" for="email">e-mail</label>
+            <input class="col-9" type="email" id="email" />
+            <label class="col-3" for="comentarios">Comentarios</label>
+            <textarea cols="30" id="comentarios" name="" rows="10"></textarea>
+            <div class="mt-2">
+              <button type="button" class="btn btn-dark">Enviar</button>
+              <button type="reset" class="btn btn-dark">
+                Limpiar formulario
+              </button>
+            </div>
+          </fieldset>
+        </form>
       </div>
-    </nav>
-  </header>
+    </section>
 
-      <div class="section-contact">
+    <footer class="footer container-fluid bg-black text-white">
+      <div class="row align-items-center">
+        <nav class="col-auto container-fluid m-0 p-2">
+          <ul class="nav row gx-1">
+            <li class="col-auto">
+              <a href="https://www.instagram.com/uncaosorganizado/"
+                ><img
+                  src="../svgs/ig.svg"
+                  alt="Instagram"
+                  width="32"
+                  height="32"
+              /></a>
+            </li>
 
-        <div class="img-contact"></div>
+            <li class="col-auto">
+              <a href="https://www.facebook.com/uncaosorganizado/"
+                ><img
+                  src="../svgs/fb.svg"
+                  alt="Facebook"
+                  width="32"
+                  height="32"
+              /></a>
+            </li>
 
-        <div class="container">
-        <section class="form-contact content">
-          <form>
-            <fieldset>
-              <legend class="titles">Contáctanos para adquirir nuestros productos</legend>
-              <div><label for="nombre">Nombre</label><input type="text" id="nombre" /></div>
-              <div><label for="telefono">Telefono</label><input type="tel" id="telefono" /></div>
-              <div><label for="email">e-mail</label><input type="email" id="email" /></div>
-              <div>
-                <label for="comentarios">Comentarios</label
-                ><textarea cols="30" id="comentarios" name="" rows="10"></textarea>
-              </div>
-              <div>
-                <button type="button" class="btn btn-dark">Enviar</button>
-                <button type="reset" class="btn btn-dark">Limpiar formulario</button>
-            </fieldset>
-          </form>
-        </section>
+            <li class="col-auto">
+              <a href="https://vm.tiktok.com/ZMND4HE5D/"
+                ><img src="../svgs/tk.svg" alt="TikTok" width="32" height="32"
+              /></a>
+            </li>
+
+            <li class="col-auto">
+              <a href="https://youtube.com/channel/UCLNAMju5gtRDfbFgOSAlh2w"
+                ><img src="../svgs/yt.svg" alt="Youtube" width="32" height="32"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+
+        <p class="d-flex col-auto ms-auto my-0 h6">Copyright © 2022</p>
       </div>
-      </div>
-
-    <footer>
-      <ul class="lista-redes">
-        <li>
-          <a href="https://www.instagram.com/uncaosorganizado/"
-            ><img src="../svgs/ig.svg" alt="Instagram"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/uncaosorganizado/"
-            ><img src="../svgs/fb.svg" alt="Facebook"
-          /></a>
-        </li>
-        <li>
-          <a href="https://vm.tiktok.com/ZMND4HE5D/"
-            ><img src="../svgs/tk.svg" alt="TikTok"
-          /></a>
-        </li>
-        <li>
-          <a href="https://youtube.com/channel/UCLNAMju5gtRDfbFgOSAlh2w"
-            ><img src="../svgs/yt.svg" alt="Youtube"
-          /></a>
-        </li>
-      </ul>
-
-      <p>Copyright © 2022</p>
     </footer>
 
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
