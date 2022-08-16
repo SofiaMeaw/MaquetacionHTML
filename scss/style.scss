@@ -1,4 +1,10 @@
-@import "mixins"; 
+@import 'mixins';
+@import 'header';
+@import 'footer';
+@import 'forms';
+@import 'content-home';
+@import 'carousel';
+@import 'layout';
 
 body {
   margin: 0;
@@ -13,103 +19,4 @@ body {
 .title {
   font-family: 'Amatic SC', cursive;
   font-weight: bolder;
-}
-
-.header {
-  background-color: #000;
-  margin: 0;
-
-  .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.55);
-
-    &:hover {
-      color: rgba(255, 255, 255, 1);
-    }
-  }
-
-  .logo {
-    width: 32px;
-    height: 32px;
-    opacity: 0.8;
-
-    @include for-breakpoint(md) {
-      width: 64px;
-      height: 64px;
-      padding: 5px;
-    }
-
-    @include for-breakpoint(md) {
-      width: 64px;
-      height: 64px;
-      padding: 5px;
-    }
-  }
-
-  .dropdown-menu {
-    font-family: 'Shadows Into Light', cursive;
-  }
-}
-
-.footer {
-  margin: 0;
-  margin-top: auto;
-}
-
-.carousel-inner {
-  aspect-ratio: 2/1;
-}
-
-.content-home {
-  iframe {
-    aspect-ratio: 1/1;
-    border: 0;
-  }
-}
-
-.img-about {
-  height: 200px;
-  object-fit: cover;
-
-  @include for-breakpoint(md) {
-    height: 600px;
-  }
-}
-
-.aside {
-  width: 100%;
-}
-
-.img-aside {
-  @extend .aside;
-  object-fit: cover;
-  height: 200px;
-
-  @include for-breakpoint(md) {
-    width: 50%;
-    height: 600px;
-  }
-}
-
-.content-aside {
-  @extend .aside;
-
-  @include for-breakpoint(md) {
-    width: 50%;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-
-    li {
-      padding: 10px;
-    }
-  }
-}
-
-.img-min-gallery {
-  aspect-ratio: 1/1;
-  padding: 10px;
 }

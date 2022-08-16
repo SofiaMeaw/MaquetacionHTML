@@ -1,18 +1,3 @@
-body {
-  margin: 0;
-  background-color: #333333;
-  color: white;
-  font-family: "Shadows Into Light", cursive;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.title {
-  font-family: "Amatic SC", cursive;
-  font-weight: bolder;
-}
-
 .header {
   background-color: #000;
   margin: 0;
@@ -35,6 +20,13 @@ body {
     padding: 5px;
   }
 }
+@media screen and (min-width: 768px) {
+  .header .logo {
+    width: 64px;
+    height: 64px;
+    padding: 5px;
+  }
+}
 .header .dropdown-menu {
   font-family: "Shadows Into Light", cursive;
 }
@@ -44,40 +36,54 @@ body {
   margin-top: auto;
 }
 
-.carousel-inner {
-  aspect-ratio: 2/1;
+.form-contact input[type=text],
+.form-contact input[type=tel],
+.form-contact input[type=email],
+.form-contact textarea {
+  background-color: #000;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .form-contact .title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 
+.content-home h3 {
+  padding-bottom: 10px;
+}
 .content-home iframe {
   aspect-ratio: 1/1;
   border: 0;
+  padding-bottom: 30px;
 }
 
-.img-about {
-  height: 200px;
-  object-fit: cover;
+.carousel-inner {
+  padding-top: 15px;
+  aspect-ratio: 2/1;
 }
 @media screen and (min-width: 768px) {
-  .img-about {
-    height: 600px;
+  .carousel-inner {
+    padding-top: 30px;
   }
+}
+
+.aside, .content-aside, .img-aside {
+  width: 100%;
 }
 
 .img-aside {
   object-fit: cover;
-  width: 100%;
   height: 200px;
 }
 @media screen and (min-width: 768px) {
   .img-aside {
     width: 50%;
-    height: 600px;
+    height: 700px;
   }
 }
 
-.content-aside {
-  width: 100%;
-}
 @media screen and (min-width: 768px) {
   .content-aside {
     width: 50%;
@@ -92,10 +98,40 @@ body {
 .content-aside ul li {
   padding: 10px;
 }
+.content-aside ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.img-about {
+  height: 200px;
+  object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .img-about {
+    height: 600px;
+    padding: 25px;
+  }
+}
 
 .img-min-gallery {
   aspect-ratio: 1/1;
   padding: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: #333333;
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.title {
+  font-family: "Amatic SC", cursive;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=style.css.map */

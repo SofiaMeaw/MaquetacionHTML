@@ -1,0 +1,8 @@
+.carousel-inner {
+    padding-top: 15px;
+    aspect-ratio: 2/1;
+  
+    @include for-breakpoint(md) {
+      padding-top: 30px;
+    }
+  }
