@@ -1,18 +1,16 @@
 .form-contact {
-    input[type='text'],
-    input[type='tel'],
-    input[type='email'],
-    textarea {
-      background-color: #000;
-      color: white;
-    }
-  
-    .title {
-      @include for-breakpoint(md) {
-        padding-top: 25px;
-        padding-bottom: 25px;
-      }
-    }
-  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    background-color: #000;
+    color: white;
   }
-  
+
+  .title {
+    @include for-breakpoint(md) {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+}

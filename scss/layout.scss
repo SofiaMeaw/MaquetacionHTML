@@ -14,40 +14,40 @@
 }
 
 .content-aside {
-    @extend .aside;
-  
-    @include for-breakpoint(md) {
-      width: 50%;
-    }
-  
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      height: 100%;
-  
-      li {
-        padding: 10px;
+  @extend .aside;
 
-        a {
-            color: white;
-            text-decoration: none;
-        }
+  @include for-breakpoint(md) {
+    width: 50%;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    li {
+      padding: 10px;
+
+      a {
+        color: white;
+        text-decoration: none;
       }
     }
   }
+}
 
-  .img-about {
-    height: 200px;
-    object-fit: cover;
-  
-    @include for-breakpoint(md) {
-      height: 600px;
-      padding: 25px;
-    }
-  }
+.img-about {
+  height: 200px;
+  object-fit: cover;
 
-  .img-min-gallery {
-    aspect-ratio: 1/1;
-    padding: 10px;
+  @include for-breakpoint(md) {
+    height: 600px;
+    padding: 25px;
   }
+}
+
+.img-min-gallery {
+  aspect-ratio: 1/1;
+  padding: 10px;
+}

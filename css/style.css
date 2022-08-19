@@ -12,12 +12,18 @@
   width: 32px;
   height: 32px;
   opacity: 0.8;
+  transition: all ease-in-out 500ms;
 }
 @media screen and (min-width: 768px) {
   .header .logo {
     width: 64px;
     height: 64px;
     padding: 5px;
+  }
+  .header .logo:hover {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -34,6 +40,9 @@
 .footer {
   margin: 0;
   margin-top: auto;
+}
+.footer a:hover {
+  opacity: 0.5;
 }
 
 .form-contact input[type=text],
@@ -67,6 +76,18 @@
   .carousel-inner {
     padding-top: 30px;
   }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(128, 128, 128, 0.8);
+  border-radius: 100%;
+  top: 50%;
+  bottom: unset;
+  width: auto;
+  padding: 10px;
+  margin: 0 20px;
+  transform: translateY(-50%);
 }
 
 .aside, .content-aside, .img-aside {

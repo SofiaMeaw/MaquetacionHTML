@@ -7,13 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sofiafgm/UnCaos.git"
   },
-  "author": "",
+  "author": "Fátima Sofía Gomez Mata",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sofiafgm/UnCaos/issues"
